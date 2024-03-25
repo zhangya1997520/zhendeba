@@ -1,0 +1,836 @@
+﻿�?*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html {
+
+	line-height: 1.15;
+
+	-webkit-text-size-adjust: none
+
+}
+
+*{ margin:0; padding:0;}
+
+body {
+
+	font-size: inherit;
+
+	margin: 0;
+
+	padding: 0;
+
+	-webkit-text-size-adjust: none
+
+}
+
+
+
+h1 {
+
+	font-size: 2em;
+
+	margin: 0.67em 0
+
+}
+
+
+
+hr {
+
+	box-sizing: content-box;
+
+	height: 0;
+
+	overflow: visible
+
+}
+
+
+
+pre {
+
+	font-family: monospace, monospace;
+
+	font-size: 1em
+
+}
+
+
+
+a {
+
+	background-color: transparent;
+
+	color: inherit
+
+}
+
+
+
+abbr[title] {
+
+	border-bottom: none;
+
+	text-decoration: underline;
+
+	text-decoration: underline dotted
+
+}
+
+
+
+b,strong {
+
+	font-weight: bolder
+
+}
+
+
+
+code,kbd,samp {
+
+	font-family: monospace, monospace;
+
+	font-size: 1em
+
+}
+
+
+
+small {
+
+	font-size: 80%
+
+}
+
+
+
+sub,sup {
+
+	font-size: 75%;
+
+	line-height: 0;
+
+	position: relative;
+
+	vertical-align: baseline
+
+}
+
+
+
+sub {
+
+	bottom: -0.25em
+
+}
+
+
+
+sup {
+
+	top: -0.5em
+
+}
+
+
+
+img {
+
+	border-style: none
+
+}
+
+
+
+button,input,optgroup,select,textarea {
+
+	font-family: inherit;
+
+	font-size: 100%;
+
+	line-height: 1.15;
+
+	margin: 0;
+
+	outline: none
+
+}
+
+
+
+button,input {
+
+	overflow: visible
+
+}
+
+
+
+button,select {
+
+	text-transform: none
+
+}
+
+
+
+button,[type="button"],[type="reset"],[type="submit"] {
+
+	-webkit-appearance: button
+
+}
+
+
+
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {
+
+	border-style: none;
+
+	padding: 0
+
+}
+
+
+
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring {
+
+	outline: 1px dotted ButtonText
+
+}
+
+
+
+fieldset {
+
+	padding: 0.35em 0.75em 0.625em
+
+}
+
+
+
+legend {
+
+	box-sizing: border-box;
+
+	color: inherit;
+
+	display: table;
+
+	max-width: 100%;
+
+	padding: 0;
+
+	white-space: normal
+
+}
+
+
+
+progress {
+
+	vertical-align: baseline
+
+}
+
+
+
+textarea {
+
+	overflow: auto
+
+}[type="checkbox"],[type="radio"] {
+
+	box-sizing: border-box;
+
+	padding: 0
+
+}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {
+
+	height: auto
+
+}[type="search"] {
+
+	-webkit-appearance: textfield;
+
+	outline-offset: -2px
+
+}[type="search"]::-webkit-search-decoration {
+
+	-webkit-appearance: none
+
+}
+
+
+
+::-webkit-file-upload-button {
+
+	-webkit-appearance: button;
+
+	font: inherit
+
+}
+
+
+
+details {
+
+	display: block
+
+}
+
+
+
+summary {
+
+	display: list-item
+
+}
+
+
+
+template {
+
+	display: none
+
+}[hidden] {
+
+	display: none
+
+}
+
+
+
+ul,li {
+
+	list-style: none;
+
+	margin: 0;
+
+	padding: 0
+
+}
+
+
+
+p {
+
+	margin: 0
+
+}
+
+
+
+table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0
+
+}
+
+
+
+a {
+
+	color: inherit;
+
+	text-decoration: none;
+
+	font-style: inherit
+
+}
+
+
+
+.icon {
+
+	background-image: url("../Images/icon.sprite.png")/*tpa=https://321059.com/assets/images/icon.sprite.png*/;
+
+	background-repeat: no-repeat;
+
+	display: inline-block;
+
+	background-size: 16.75rem auto
+
+}
+
+
+
+.icon.androw {
+
+	width: 2.875rem;
+
+	height: 3.25rem;
+
+	background-position: -0.3125rem  -0.3125rem; 
+
+}
+
+
+
+.icon.apple {
+
+	width: 2.875rem;
+
+	height: 3.4375rem;
+
+	background-position: -0.3125rem -3.875rem
+
+}
+
+
+
+.icon.fast {
+
+	width: 7.1875rem;
+
+	height: 7.1875rem;
+
+	background-position: -0.3125rem -7.625rem
+
+}
+
+
+
+.icon.hd {
+
+	width: 7.1875rem;
+
+	height: 7.1875rem;
+
+	background-position: -0.3125rem -15.125rem
+
+}
+
+
+
+.icon.logo {
+
+	width: 16.125rem;
+
+	height: 20.9375rem;
+
+	background-position: -0.3125rem -22.625rem
+
+}
+
+
+
+.icon.qrcode {
+
+	width: 14.9375rem;
+
+	height: 14.9375rem;
+
+	background-position: -0.3125rem -43.875rem
+
+}
+
+
+
+.icon.top {
+
+	width: 7.1875rem;
+
+	height: 7.1875rem;
+
+	background-position: -0.3125rem -59.125rem
+
+}
+
+
+
+body {
+
+	height: auto;
+
+	min-width: 320px;
+
+	max-width: 640px;
+
+	margin: 0 auto;
+
+	position: relative
+
+}
+
+
+
+.body {
+
+	width: 100%;
+
+	height: 13.12rem;
+
+	background: url(../Images/123.jpg)/*tpa=https://321059.com/assets/images/123.jpg*/ no-repeat top center;
+
+	background-size: 100%;
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	z-index: 10;
+
+}
+
+body .bg {
+
+	position: absolute;
+
+	width: 100%;
+
+	height: 100%;
+
+	min-width: 320px;
+
+	max-width: 640px;
+
+	z-index: 1
+
+}
+
+.body1 {
+
+	background: url(../Images/1234.jpg)/*tpa=https://321059.com/assets/images/1234.jpg*/ no-repeat top center;
+
+	background-size: 100%;
+
+	opacity: 0;
+
+}
+
+
+
+.fadeIn {
+
+	animation-name: fadeIn;
+
+	animation-duration: 10s;
+
+	animation-iteration-count: infinite;
+
+}
+
+
+
+.fade1 {
+
+	animation-delay: 5s;
+
+}
+
+
+
+@keyframes fadeIn {
+
+	0% {
+
+		opacity: 0;
+
+	}
+
+	50% {
+
+		opacity: 1;
+
+	}
+
+	100% {
+
+		opacity: 0;
+
+	}
+
+}
+
+
+
+
+
+.main {
+
+	overflow: hidden;
+
+	position: relative;
+
+	z-index: 5;
+
+	background: rgba(0,0,0,0.6);
+
+	text-align: center
+
+}
+
+
+
+.main .logo {
+
+	overflow: hidden;
+
+	text-indent: -100%;
+
+	margin-top: 10%
+
+}
+
+
+
+.main .button {
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -moz-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+
+	-webkit-box-pack: center;
+
+	-webkit-justify-content: center;
+
+	-moz-box-pack: center;
+
+	-ms-flex-pack: center;
+
+	justify-content: center;
+
+	margin: 5% 0
+
+}
+
+
+
+.main .button .link {
+
+	font-size: 1.625rem;
+
+	padding: 3% 8%;
+
+	-webkit-border-radius: 0.3125rem;
+
+	-moz-border-radius: 0.3125rem;
+
+	border-radius: 0.3125rem;
+
+	-webkit-align-content: center;
+
+	-ms-flex-line-pack: center;
+
+	align-content: center
+
+}
+
+
+
+.main .button .link .icon {
+
+	vertical-align: middle;
+
+	margin-top: -0.5rem;
+
+	margin-right: 0.625rem
+
+}
+
+
+
+.main .button .link span {
+
+	vertical-align: middle;
+
+	line-height: 3.4375rem
+
+}
+
+
+
+.main .button .link:first-child {
+
+	background: #efefef;
+
+	color: #2a2a2a;
+
+	margin-right: 5%
+
+}
+
+
+
+.main .button .link:last-child {
+
+	background: #8941fc;
+
+	color: #fff
+
+}
+
+
+
+.main .slogan {
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -moz-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+
+	-webkit-box-pack: center;
+
+	-webkit-justify-content: center;
+
+	-moz-box-pack: center;
+
+	-ms-flex-pack: center;
+
+	justify-content: center;
+
+	color: #fff;
+
+	margin: 10% 0 10% 0;
+
+	width: 100%;
+
+	font-size: 0;
+
+	text-align: center
+
+}
+
+
+
+.main .slogan .div {
+
+	display: inline-block;
+
+	text-align: center;
+
+	font-size: 1.625rem
+
+}
+
+
+
+.main .slogan .div .icon {
+
+	margin-bottom: 1rem
+
+}
+
+
+
+.main .slogan .div:first-child {
+
+	margin-right: 6%
+
+}
+
+
+
+.main .slogan .div:last-child {
+
+	margin-left: 6%
+
+}
+
+
+
+.main #qrcode {
+
+	margin: 0 auto;
+
+	text-align: center
+
+}
+
+
+
+.main #qrcode img {
+
+	margin: 0 auto;
+
+	border: 0.625rem #fff solid !important
+
+}
+
+
+
+.main .p {
+
+	font-size: 1.825rem;
+
+	color: #fff;
+
+	text-align: center;
+
+	margin: 5% auto;
+
+	letter-spacing:0.3em
+
+}
+
+
+
+
+
+.demo{width:100%;margin:10px auto 10px auto}
+
+.demo p{ line-height:1.1; padding:0; margin:0;}
+
+.btn {
+
+	text-transform: uppercase;
+
+	background:#005cb9; color: white;
+
+	padding: 1rem; border-radius: 5px; border:1px solid #005cb9;
+
+	cursor: pointer;margin:0.3rem auto;width:12.8rem;text-align:center; font-size:1.6rem;
+
+}
+
+.btn:hover {background:#005cb9;}
+
+.demo input{padding:1rem; border:1px solid #d3d3d3;width:22rem; border-radius:5px;font-size:1.6rem;}
+
+.lastLink{ width:31rem; margin:0 auto; }
+
+.lastLink li{ height:3.375rem; padding-top:1rem; margin-bottom:0.5rem; }
+
+.lastLink li a{ display:block;height:3.375rem;}
+
+.lastLink li span{ display:block; height:3.375rem; float:left; line-height:3.375rem; color:#fff; font-size:2rem; border:1px solid rgba(255,255,255,0.4);border-radius:0.3rem; box-shadow:inset 0 0 0.8rem rgba(255,255,255,0.5); width:20rem; text-align:left; padding-left:1rem;}
+
+.lastLink li strong{ display:block; height:3.375rem; float:left; line-height:3.375rem; background:#f60; border-radius:0.3rem; color:#fff; text-align:center; width:9rem; font-size:1.55rem; font-weight:normal; float:right; border:1px solid #f60;}
+
+.appDown{ padding-top:2rem;}
+
+.appDown a{  display:block; height:4.375rem; line-height:4.375rem; background:#f60 url(../Images/downico.png)/*tpa=https://321059.com/assets/images/downico.png*/ no-repeat 30% center; background-size:3rem 3rem; color:#fff; font-size:2.4rem;border-radius:0.3rem; text-indent:3rem; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
